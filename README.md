@@ -54,7 +54,7 @@ pip install -r requirements.txt
 1. প্রজেক্ট ফোল্ডারে যান:
 
 ```bash
-cd voice-translator
+cd Video_language_translator
 ```
 
 2. Flask অ্যাপ চালু করুন:
