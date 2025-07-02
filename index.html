@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Voice Translator</title>
+</head>
+<body>
+    <h2>🎥 ভিডিও ট্রান্সলেট করুন</h2>
+    <form method="POST" action="/process">
+        <input type="text" name="url" placeholder="ভিডিও লিংক দিন" required><br><br>
+        <select name="lang">
+            <option value="bn">বাংলা</option>
+            <option value="en">English</option>
+            <option value="ar">Arabic</option>
+            <option value="hi">Hindi</option>
+        </select><br><br>
+        <button type="submit">Start Translation</button>
+    </form>
+</body>
+</html>
